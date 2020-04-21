@@ -1,6 +1,6 @@
 {% set name = "indexed_gzip" %}
-{% set version = "1.0.0" %}
-{% set sha256 = "e49bb81311f23ec89555fb8314d10d8877a8cabc5f57b234386cf8ef3ac9bf71" %}
+{% set version = "1.1.0" %}
+{% set sha256 = "49d19ba5dca7bc7e0aff3666228b7c75d8aa7156f2c2af09568508fecaf09713" %}
 
 package:
   name: {{ name|lower }}
@@ -43,7 +43,7 @@ about:
   home: https://github.com/pauldmccarthy/indexed_gzip
   license: Zlib
   license_file: LICENSE
-  summary: 'Fast random access of gzip files in Python'
+  summary: Fast random access of gzip files in Python
   dev_url: https://github.com/pauldmccarthy/indexed_gzip
 
 extra:
