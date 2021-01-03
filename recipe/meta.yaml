@@ -33,7 +33,6 @@ requirements:
 test:
   source_files:
     - setup.cfg
-    - .coveragerc
   requires:
     - pytest
     - numpy
