@@ -1,6 +1,6 @@
 {% set name = "indexed_gzip" %}
-{% set version = "1.6.3" %}
-{% set sha256 = "818792bbbfe040df32fcf3ab4f6669df469bd9f191900cabdb00d24de0f8210f" %}
+{% set version = "1.6.4" %}
+{% set sha256 = "97ea7740bc062682922ce98664a0d042e5fbfc5b9c1e79dd1ca5784383dbf0d3" %}
 
 package:
   name: {{ name|lower }}
