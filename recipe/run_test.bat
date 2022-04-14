@@ -4,5 +4,5 @@ for /f "delims=" %%a in ('python -c "import subprocess; import os.path as op; pr
 
 python -c "import sys; sys.exit(not (3,) < sys.version_info < (3,6,3))" && (curl -sL https://github.com/python/cpython/pull/1224.patch | patch -fsup 1 -d %PATCH_PREFIX% ) || ( set errorlevel=0 )
 
-python -m indexed_gzip.tests -c setup.cfg --no-cov -m "not slow_test"          --pyargs indexed_gzip
-python -m indexed_gzip.tests -c setup.cfg --no-cov -m "not slow_test" --concat --pyargs indexed_gzip
+python -m indexed_gzip.tests -c pyproject.toml -m "not slow_test"          --pyargs indexed_gzip
+python -m indexed_gzip.tests -c pyproject.toml -m "not slow_test" --concat --pyargs indexed_gzip
