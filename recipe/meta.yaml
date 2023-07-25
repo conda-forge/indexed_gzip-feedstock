@@ -42,6 +42,8 @@ test:
     - numpy
     - nibabel
     - cython
+    - coverage
+    - pytest-cov
 
 about:
   home: https://github.com/pauldmccarthy/indexed_gzip
