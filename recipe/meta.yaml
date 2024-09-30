@@ -24,16 +24,17 @@ requirements:
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
   host:
+    - cython >=0.24
     - python
     - pip
-    - numpy
-    - zlib
     - msinttypes  # [win]
-    - cython >=0.24
+    - numpy
+    - setuptools
+    - zlib
+
   run:
     - python
     - zlib
-
 
 test:
   source_files:
