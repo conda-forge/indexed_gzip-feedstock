@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 2
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -24,16 +24,17 @@ requirements:
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
   host:
+    - cython >=0.24
     - python
     - pip
-    - numpy
-    - zlib
     - msinttypes  # [win]
-    - cython >=0.24
+    - numpy
+    - setuptools
+    - zlib
+
   run:
     - python
     - zlib
-
 
 test:
   source_files:
