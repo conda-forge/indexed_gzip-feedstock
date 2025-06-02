@@ -181,7 +181,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-indexed_gzip-green.svg)](https://anaconda.org/conda-forge/indexed_gzip) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/indexed_gzip.svg)](https://anaconda.org/conda-forge/indexed_gzip) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/indexed_gzip.svg)](https://anaconda.org/conda-forge/indexed_gzip) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/indexed_gzip.svg)](https://anaconda.org/conda-forge/indexed_gzip) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-indexed__gzip-green.svg)](https://anaconda.org/conda-forge/indexed_gzip) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/indexed_gzip.svg)](https://anaconda.org/conda-forge/indexed_gzip) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/indexed_gzip.svg)](https://anaconda.org/conda-forge/indexed_gzip) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/indexed_gzip.svg)](https://anaconda.org/conda-forge/indexed_gzip) |
 
 Installing indexed_gzip
 =======================
