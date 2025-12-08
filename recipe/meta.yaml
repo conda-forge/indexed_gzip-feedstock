@@ -1,6 +1,6 @@
 {% set name = "indexed_gzip" %}
-{% set version = "1.10.1" %}
-{% set sha256 = "3993fd72570b254045d2361d937a984350719f2205066f4e4c16435a1df361e3" %}
+{% set version = "1.10.3" %}
+{% set sha256 = "1347f3b6c5522c5c50db5d9e2801257cea86639e87b46c6635f22005ee3ded25" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
